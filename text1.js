@@ -125,13 +125,72 @@
 
 // name.method(K);
 
-let text = "Hello Krishna";
 
-text.length
-text.toUpperCase()
-text.toLowerCase()
-text.includes("Krishna")
-text.startsWith("Hello")
-text.endsWith("Krishna")
-text.trim()
-text.slice(0, 5)
+// text.length
+// text.toUpperCase()
+// text.toLowerCase()
+// text.includes("Krishna")
+// text.startsWith("Hello")
+// text.endsWith("Krishna")
+// text.trim()
+// text.slice(0, 5)
+
+// let text = "Hello Krishna";
+
+// let slice = text.slice(0,6);
+
+// let br = text.replace("Hello","YO")
+
+// console.log(slice);
+// console.log(br);
+
+
+// let text = "I love JavaScript";
+
+// let result = text.replace("JavaScript", "Python");
+
+// console.log(text);
+// console.log(result);
+
+
+// let str = "Mango";
+
+// let re = str.repeat(3);
+
+// console.log(re);
+
+// let msg = "Help!";
+
+
+// console.log(msg.trim().toUpperCase());
+
+
+// let car = ["BMW","Ferrari","Lambo"];
+
+// let newcar = car.push("ROlls Royce");
+
+// console.log(car)
+// console.log(newcar)
+
+// let followers = ["a","b","c"];
+
+// let blocked = followers.shift();
+
+// let unblocked = followers.unshift("ef");
+// console.log(blocked);
+// console.log(unblocked);
+
+
+let primary = ["red","blue","Green"];
+
+let secondry = ["yellow","orange","voilet"];
+
+let a = primary.concat(secondry);
+
+let b = secondry.concat(primary);
+
+console.log(a);
+console.log(b);
+
+let c = a.reverse();
+console.log(c);
