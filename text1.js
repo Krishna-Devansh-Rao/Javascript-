@@ -181,16 +181,28 @@
 // console.log(unblocked);
 
 
-let primary = ["red","blue","Green"];
+// let colour = ["red","blue","Green","yellow","orange","voilet"];
 
-let secondry = ["yellow","orange","voilet"];
 
-let a = primary.concat(secondry);
 
-let b = secondry.concat(primary);
+// let a = primary.concat(secondry);
+
+// let b = secondry.concat(primary);
+
+// console.log(a);
+// console.log(b);
+
+// let c = a.reverse();
+// // console.log(c);
+
+// let d = primary.slice(0,2);
+// console.log(d);
+
+
+let colour = ["red","blue","Green","yellow","orange","voilet"];
+
+// let a = colour.slice(2,4);
+let a = colour.splice(1);
 
 console.log(a);
-console.log(b);
 
-let c = a.reverse();
-console.log(c);
