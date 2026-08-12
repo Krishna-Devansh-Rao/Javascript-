@@ -199,10 +199,15 @@
 // console.log(d);
 
 
-let colour = ["red","blue","Green","yellow","orange","voilet"];
+// let colour = ["red","blue","Green","yellow","orange","voilet"];
 
-// let a = colour.slice(2,4);
-let a = colour.splice(1);
+// console.log(colour);
 
-console.log(a);
 
+// let month = ["Jan","july","march","Aug"];
+
+// console.log(month);
+
+let lang = ["C","cpp","html","javascript","python","java","c#","sql"];
+
+console.log(lang);
